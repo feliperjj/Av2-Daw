@@ -1,0 +1,43 @@
+<!-- 3. Possibilitar o usuario alugar o carro no periodo buscado. -->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Alugar Carro</h1>
+    <div class="menu">
+      
+        <ul>
+        <li><a href="inserirCarro.html">Inserir Carro</a></li>
+        <li><a href="BuscarCarros.html">Buscar Carros</a></li>
+        <li><a href="ListarCarros.html">Listar Carros</a></li>
+        <li><a href="AlugarCarros.html">Alugar Carros</a></li>
+        </ul>
+    </div>
+        
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome">
+      <label for="cpf">CPF:</label>
+      <input type="text" name="cpf" id="cpf">
+      <label for="periodo">Periodo Aluguel:</label>
+      
+      <input type="checkbox"  name="15" id="periodo">
+      <label>15 dias</label>
+      <input type="checkbox" name="30" id="periodo">
+      <label>30 dias</label>
+      <input type="checkbox" name="45" id="periodo">
+      <label>45 dias</label>
+    
+     
+      <input type="button" name="envio" value="Enviar" onclick="AlugarCarro();">
+      <script src="index.js"></script> 
+  </body>
+</html>

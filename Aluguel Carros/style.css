@@ -1,0 +1,96 @@
+body{
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+legend {
+    background-color: #6babf3;
+    color: white;
+    padding: 5px 10px;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+}
+#index{
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    border: solid 1px;
+}
+
+li{
+    margin: 5px;
+    margin-left: 25px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   
+    
+  }
+  .menu a {
+  
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+.row.gridspacing-medium, .row.collapse.gridspacing-medium {
+  margin-bottom: 2.5rem;
+}
+.q-gridbuilder {
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+.row {
+  margin: 0 auto;
+    margin-bottom: 0px;
+  max-width: 156.25rem;
+  width: 100%;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+}
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+body {
+  color: #262626;
+  cursor: auto;
+  font-family: Roboto,Helvetica,NotoSansKR,NanumGothic,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+html, body {
+  font-size: 100%;
+}
+element {
+  --vh: 7.75px;
+}
+html {
+  font-size: 17px;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}

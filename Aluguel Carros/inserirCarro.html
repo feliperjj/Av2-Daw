@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inserir seleção</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="menu">
+    <ul>
+        <li><a href="inserirCarro.html">Inserir Carro</a></li>
+        <li><a href="BuscarCarros.html">Buscar Carros</a></li>
+        <li><a href="ListarCarros.html">Listar Carros</a></li>
+        <li><a href="AlugarCarros.html">Alugar Carros</a></li>
+       
+  
+
+ 
+    </ul>
+</div>
+    <form>
+        <fieldset>
+            <legend style="font-size: 20px;">Digite os Dados do Carro</legend>
+            
+            <label>Nome do Carro:</label>
+            <input type="text" name="nome" id="nome"><br><br>
+            <label>Tipo do Carro:</label>
+            <input type="text" name="ano" id="tipo"><br><br>
+            <label>Ano do Carro:</label>
+            <input type="text" name="ano" id="ano"><br><br>
+            <label>Preço do Aluguel do Carro:</label>
+            <input type="text" name="preco" id="preco"><br><br>
+            <label>Cidade em que o carro está alocado:</label>
+            <input type="text" name="cidade" id="cidade"><br><br>
+            <input type="button" name="envio" value="Enviar" onclick="enviarForm1();">
+        </fieldset>
+    </form>
+    <img src="Carro.png" id="img" alt="Carro">
+    <script src="index.js"></script> 
+</body>
+
+</html>
