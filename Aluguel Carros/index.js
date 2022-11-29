@@ -56,7 +56,7 @@ function enviarForm1() {
       
 
   
-// Referente ao calendario Completo
+// Referente ao Carros
 function carregaCarros() {
   let xmlHttp = new XMLHttpRequest();
       xmlHttp.onreadystatechange = function() {
