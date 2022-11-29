@@ -2,7 +2,7 @@
      $servidor = "localhost";
      $user = "root";
      $pass = "";
-     $banco = "copadomundo";
+     $banco = "rent";
      $retorno = "";
     
     if($_SERVER["REQUEST_METHOD"]=="GET")
@@ -21,7 +21,7 @@
         }
 
         if ($result=true){
-            $retorno=json_encode($vetJogos);
+            $retorno=json_encode($vetCarros);
 
         } else {
             $retorno=json_encode("DEU RUIM!😭😭");
